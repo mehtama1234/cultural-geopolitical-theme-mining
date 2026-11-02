@@ -1,6 +1,6 @@
 {
   "schema": "external-trend-intelligence.refresh-freshness-decision.v1",
-  "generated_at": "2026-11-01T08:32:16.809046+00:00",
+  "generated_at": "2026-11-02T03:08:07.837473+00:00",
   "family_count": 8,
   "fresh_ready_count": 8,
   "hold_count": 0,
@@ -16,12 +16,12 @@
         {
           "path": "observation-manifest.json",
           "exists": true,
-          "age_hours": 0.04
+          "age_hours": 0.05
         },
         {
           "path": "candidate-comparisons.json",
           "exists": true,
-          "age_hours": 8.97
+          "age_hours": 27.57
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -37,12 +37,12 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         },
         {
           "path": "external-family-lineage-review.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -58,12 +58,12 @@
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         },
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 13.24
+          "age_hours": 31.84
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -79,12 +79,12 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.04
+          "age_hours": 0.06
         },
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -100,12 +100,12 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.04
+          "age_hours": 0.06
         },
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -121,17 +121,17 @@
         {
           "path": "repository-family-snapshot.json",
           "exists": true,
-          "age_hours": 0.04
+          "age_hours": 0.06
         },
         {
           "path": "external-family-observations.json",
           "exists": true,
-          "age_hours": 0.03
+          "age_hours": 0.05
         },
         {
           "path": "external-family-comparisons.json",
           "exists": true,
-          "age_hours": 13.24
+          "age_hours": 31.84
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -147,12 +147,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 12.15
+          "age_hours": 30.74
         },
         {
           "path": "REFRESH-RUNBOOK.md",
           "exists": true,
-          "age_hours": 3.19
+          "age_hours": 21.79
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."
@@ -168,12 +168,12 @@
         {
           "path": "source-family-registry.json",
           "exists": true,
-          "age_hours": 12.15
+          "age_hours": 30.74
         },
         {
           "path": "internal-bridge-schema.json",
           "exists": true,
-          "age_hours": 14.18
+          "age_hours": 32.78
         }
       ],
       "action": "Proceed to lineage, rights, independence, and qualification review; freshness alone is not validity."

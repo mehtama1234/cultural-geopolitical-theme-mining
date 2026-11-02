@@ -3,10 +3,10 @@
   "status": "two_year_weekly_coverage_not_demonstrated",
   "expected_cadence": "weekly",
   "required_week_count": 104,
-  "observed_distinct_week_count": 1,
-  "remaining_week_count": 103,
-  "observed_week_coverage_ratio": 0.0096,
-  "observed_week_coverage_percent": 0.96,
+  "observed_distinct_week_count": 2,
+  "remaining_week_count": 102,
+  "observed_week_coverage_ratio": 0.0192,
+  "observed_week_coverage_percent": 1.92,
   "observed_weeks": [
     {
       "week": "2026-W44",
@@ -14,10 +14,17 @@
       "passed_run_count": 184,
       "first_run": "2026-10-31T22:09:08+00:00",
       "latest_run": "2026-11-01T08:29:23+00:00"
+    },
+    {
+      "week": "2026-W45",
+      "run_count": 1,
+      "passed_run_count": 1,
+      "first_run": "2026-11-02T03:08:56+00:00",
+      "latest_run": "2026-11-02T03:08:56+00:00"
     }
   ],
-  "run_count": 194,
-  "passed_run_count": 184,
+  "run_count": 195,
+  "passed_run_count": 185,
   "acceptance": "Each of 104 distinct weekly windows must contain a passed full refresh, with missed-window recovery evidence retained.",
   "weekly_window_record_schema": [
     "scheduled_window_utc",

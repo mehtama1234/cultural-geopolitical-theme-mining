@@ -2,9 +2,9 @@
   "schema": "external-trend-intelligence.continuity-review-packet.v1",
   "status": "ready_for_weekly_release_owner_review",
   "required_week_count": 104,
-  "observed_week_count": 1,
-  "remaining_week_count": 103,
-  "passed_run_count": 184,
+  "observed_week_count": 2,
+  "remaining_week_count": 102,
+  "passed_run_count": 185,
   "rows": [
     {
       "week": "2026-W44",
@@ -22,24 +22,23 @@
     },
     {
       "week": "2026-W45",
-      "slot_index": 2,
-      "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
-      "actual_run_timestamp_utc": null,
-      "run_count": 0,
-      "passed_run_count": 0,
-      "pipeline_status_and_step_count": null,
-      "source_family_freshness_decision": null,
+      "status": "observed",
+      "scheduled_window_utc": null,
+      "actual_run_timestamp_utc": "2026-11-02T03:08:56+00:00",
+      "run_count": 1,
+      "passed_run_count": 1,
+      "pipeline_status_and_step_count": "passed full refresh; see refresh-history.json",
+      "source_family_freshness_decision": "see refresh-freshness-decision.json",
       "open_gate_delta": null,
       "missed_window_reason_or_null": null,
       "manual_dispatch_recovery_artifact_or_null": null,
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 3,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -51,10 +50,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 4,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -66,10 +65,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 5,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -81,10 +80,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 6,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -96,10 +95,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 7,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -111,10 +110,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 8,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -126,10 +125,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 9,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -141,10 +140,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 10,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -156,10 +155,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 11,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -171,10 +170,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 12,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -186,10 +185,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 13,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -201,10 +200,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 14,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -216,10 +215,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 15,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -231,10 +230,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 16,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -246,10 +245,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 17,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -261,10 +260,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 18,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -276,10 +275,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 19,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -291,10 +290,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 20,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -306,10 +305,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 21,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -321,10 +320,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 22,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -336,10 +335,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 23,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -351,10 +350,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 24,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -366,10 +365,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 25,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -381,10 +380,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 26,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -396,10 +395,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 27,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -411,10 +410,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 28,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -426,10 +425,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 29,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -441,10 +440,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 30,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -456,10 +455,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 31,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -471,10 +470,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 32,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -486,10 +485,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 33,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -501,10 +500,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 34,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -516,10 +515,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 35,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -531,10 +530,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 36,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -546,10 +545,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 37,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -561,10 +560,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 38,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -576,10 +575,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 39,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -591,10 +590,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 40,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -606,10 +605,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 41,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -621,10 +620,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 42,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -636,10 +635,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 43,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -651,10 +650,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 44,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -666,10 +665,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 45,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -681,10 +680,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 46,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -696,10 +695,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 47,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -711,10 +710,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 48,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -726,10 +725,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 49,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -741,10 +740,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 50,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -756,10 +755,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 51,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -771,10 +770,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 52,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -786,10 +785,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 53,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -801,10 +800,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 54,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -816,10 +815,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 55,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -831,10 +830,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 56,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -846,10 +845,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 57,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -861,10 +860,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 58,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -876,10 +875,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 59,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -891,10 +890,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 60,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -906,10 +905,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 61,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -921,10 +920,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 62,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -936,10 +935,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 63,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -951,10 +950,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 64,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -966,10 +965,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 65,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -981,10 +980,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 66,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -996,10 +995,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 67,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1011,10 +1010,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 68,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1026,10 +1025,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 69,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1041,10 +1040,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 70,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1056,10 +1055,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 71,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1071,10 +1070,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 72,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1086,10 +1085,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 73,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1101,10 +1100,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 74,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1116,10 +1115,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 75,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1131,10 +1130,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 76,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1146,10 +1145,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 77,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1161,10 +1160,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 78,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1176,10 +1175,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 79,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1191,10 +1190,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 80,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1206,10 +1205,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 81,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1221,10 +1220,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 82,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1236,10 +1235,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 83,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1251,10 +1250,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 84,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1266,10 +1265,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 85,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1281,10 +1280,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 86,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1296,10 +1295,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 87,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1311,10 +1310,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 88,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1326,10 +1325,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 89,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1341,10 +1340,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 90,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1356,10 +1355,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 91,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1371,10 +1370,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 92,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1386,10 +1385,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 93,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1401,10 +1400,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 94,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1416,10 +1415,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 95,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1431,10 +1430,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 96,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1446,10 +1445,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 97,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1461,10 +1460,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 98,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1476,10 +1475,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 99,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1491,10 +1490,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 100,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1506,10 +1505,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 101,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1521,10 +1520,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 102,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1536,10 +1535,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 103,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
@@ -1551,10 +1550,10 @@
       "release_owner_review_and_next_review_date": null
     },
     {
-      "week": "2026-W45",
+      "week": "2026-W46",
       "slot_index": 104,
       "status": "unobserved",
-      "scheduled_window_utc": "2026-11-02T06:17:00+00:00",
+      "scheduled_window_utc": "2026-11-09T06:17:00+00:00",
       "actual_run_timestamp_utc": null,
       "run_count": 0,
       "passed_run_count": 0,
