@@ -1,9 +1,9 @@
 {
   "schema": "external-trend-intelligence.open-gate-history.v1",
   "status": "append_only_gate_workload_history",
-  "snapshot_count": 58,
-  "latest_run_id": "2026-11-02T03:08:56+00:00",
-  "latest_total_open_work_items": 242,
+  "snapshot_count": 59,
+  "latest_run_id": "2026-11-02T03:13:22+00:00",
+  "latest_total_open_work_items": 241,
   "latest_critical_gate_count": 3,
   "snapshots": [
     {
@@ -3076,6 +3076,59 @@
         "two_year_continuity": {
           "priority": "normal",
           "open_count": 103,
+          "status": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "run_id": "2026-11-02T03:13:22+00:00",
+      "source_tree_revision": "3de80f09ebc47885ef958ebcd2d4ebf3cfdb58c7",
+      "total_open_work_items": 241,
+      "critical_gate_count": 3,
+      "gates": {
+        "source_family_rights": {
+          "priority": "critical",
+          "open_count": 8,
+          "status": "assignment_required"
+        },
+        "candidate_independence_adjudication": {
+          "priority": "high",
+          "open_count": 5,
+          "status": "manual_adjudication_queue_ready"
+        },
+        "shared_host_lineage": {
+          "priority": "high",
+          "open_count": 100,
+          "status": "review_required"
+        },
+        "trend_qualification": {
+          "priority": "high",
+          "open_count": 4,
+          "status": "held_candidates_present"
+        },
+        "candidate_backtest_design": {
+          "priority": "high",
+          "open_count": 5,
+          "status": "design_review_required"
+        },
+        "forecast_realized_outcomes": {
+          "priority": "normal",
+          "open_count": 8,
+          "status": "awaiting_realized_outcome"
+        },
+        "company_pilot_readiness": {
+          "priority": "critical",
+          "open_count": 3,
+          "status": "blocked_external_first"
+        },
+        "operating_ownership": {
+          "priority": "critical",
+          "open_count": 6,
+          "status": "assignment_required"
+        },
+        "two_year_continuity": {
+          "priority": "normal",
+          "open_count": 102,
           "status": "not_demonstrated"
         }
       }

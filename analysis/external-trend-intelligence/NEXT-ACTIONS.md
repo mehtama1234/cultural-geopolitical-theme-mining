@@ -18,7 +18,25 @@ The bounded-subset register now includes a five-case cross-publisher review
 candidate spanning Fair Work Commission and Fair Work Ombudsman records; it is
 an independence-review panel, not a pooled estimate.
 
-## One substantive open gate
+## Current release gates
+
+The live release has nine open gates. They are prerequisites, not implied
+completion criteria: rights and publisher-dependence review, independent
+lineage adjudication, comparable holdout/backtest evidence, named operating
+owners, company-pilot contract/privacy approval, and observed two-year
+continuity remain human-owned work. The current counts and assignments are
+authoritative in [`open-gate-register.json`](open-gate-register.json),
+[`rights-assignment-queue.json`](rights-assignment-queue.json),
+[`ownership-assignment-queue.json`](ownership-assignment-queue.json),
+[`candidate-independence-adjudication-queue.json`](candidate-independence-adjudication-queue.json),
+[`pilot-activation-queue.json`](pilot-activation-queue.json), and
+[`continuity-review-packet.json`](continuity-review-packet.json).
+
+The technical release is operational, but it is not a validated company
+decision service. No internal company data may be joined until the external
+qualification, rights, privacy, and decision-contract gates are signed.
+
+## Historical finding lane: IBIS discovery claim-level source mapping
 
 **IBIS discovery findings — claim-level source mapping.** The pinned register
 has five discovery findings, three pinned pattern artifacts, 12 aggregate

@@ -3,7 +3,7 @@
   "status": "open_gates_consolidated",
   "gate_count": 9,
   "critical_gate_count": 3,
-  "total_open_work_items": 242,
+  "total_open_work_items": 241,
   "gates": [
     {
       "gate_id": "source_family_rights",
@@ -80,7 +80,7 @@
     {
       "gate_id": "two_year_continuity",
       "priority": "normal",
-      "open_count": 103,
+      "open_count": 102,
       "owner": "release owner",
       "status": "not_demonstrated",
       "evidence": "refresh-continuity-audit.json",

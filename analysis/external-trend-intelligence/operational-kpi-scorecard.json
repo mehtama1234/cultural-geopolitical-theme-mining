@@ -2,7 +2,7 @@
   "schema": "external-trend-intelligence.operational-kpi-scorecard.v1",
   "as_of": "2026-11-01",
   "metrics": {
-    "refresh_runs_recorded": 195,
+    "refresh_runs_recorded": 196,
     "latest_pipeline_steps": 161,
     "latest_pipeline_status": "passed",
     "stale_source_families": 0,
@@ -31,7 +31,7 @@
     "host_dependence_reviews_high_priority": 23,
     "open_gate_count": 9,
     "critical_open_gate_count": 3,
-    "open_gate_work_item_count": 242,
+    "open_gate_work_item_count": 241,
     "publisher_independence_status": "unverified",
     "record_quality_min_coverage": 1.0,
     "record_quality_gap_count": 0,
