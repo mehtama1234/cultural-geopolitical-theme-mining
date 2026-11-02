@@ -1,7 +1,7 @@
 {
   "schema": "external-trend-intelligence.release-manifest.v1",
   "release_id": "external-trend-intelligence-current",
-  "source_tree_commit": "d7853c9448fcab14d3bd8d144436b761cf9812a6",
+  "source_tree_commit": "c63d5b1d56724c4e358a886cb9e98d0a475ab381",
   "artifact_count": 184,
   "artifacts": [
     {
@@ -52,7 +52,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-run-evidence.json",
       "bytes": 1003,
-      "sha256": "9fafaa63831f168ebe442e961531dc24454dd9c0fe415ad035006e59d1bc462d"
+      "sha256": "459654522f9ddb5cddceb2c15544b543f9aed4ca86606286311643e12a8596a9"
     },
     {
       "path": "analysis/external-trend-intelligence/ownership-assignment-queue.json",
@@ -97,7 +97,7 @@
     {
       "path": "analysis/external-trend-intelligence/successor-review-packet.json",
       "bytes": 3448,
-      "sha256": "29a1d7307b54d9d21b9a05a8b4beb4bf11df398bc01a9518598ddbf1f157d427"
+      "sha256": "e5d0feb345bf012980cea6b1a571be5e0a82092a5e4163f654fe309c0b6d800f"
     },
     {
       "path": "analysis/external-trend-intelligence/operational-kpi-scorecard.json",
@@ -121,8 +121,8 @@
     },
     {
       "path": "analysis/external-trend-intelligence/FRONTEND-INTEGRATION.md",
-      "bytes": 14179,
-      "sha256": "6aff818011f492262b750c4b57a182470efb91b9ff7ae0e581e31002c680f7bb"
+      "bytes": 14398,
+      "sha256": "5c317f30a6d99a973ccc52720125d18628ef9c22a73bf5716084472d92a9cc14"
     },
     {
       "path": "analysis/external-trend-intelligence/EXTERNAL-DATA-SOURCES.md",
