@@ -1,0 +1,103 @@
+{
+  "schema": "external-trend-intelligence.trend-finding-summary.v1",
+  "as_of": "2026-11-01",
+  "finding_count": 5,
+  "qualified_monitored_count": 1,
+  "held_hypothesis_count": 4,
+  "findings": [
+    {
+      "candidate_id": "candidate-us-food-insecurity-persistence",
+      "title": "U.S. food insecurity remains elevated after pandemic support changes",
+      "status": "qualified_monitored",
+      "passed_gate_count": 8,
+      "gate_count": 8,
+      "evidence_record_count": 2,
+      "source_host_count": 2,
+      "blocking_gates": [],
+      "falsifier": "A later comparable release that reverses the stated mechanism would falsify the candidate.",
+      "next_action": "Align USDA and Urban definitions, preserve the methodology break, and acquire the next comparable release before any monitored state or internal bridge.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-digital-capability-control-trust",
+      "title": "Digital capability expands while control and trust remain contested",
+      "status": "held_hypothesis",
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "evidence_record_count": 7,
+      "source_host_count": 13,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If capability adoption repeatedly coincides with stronger control, remedy, and trust outcomes across independent measures, the contested-control claim is weakened.",
+      "next_action": "Separate efficiency, delegation, trust, control, recourse, retention, and exit measures.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-formal-response-before-recovery",
+      "title": "Formal response arrives before usable recovery",
+      "status": "held_hypothesis",
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "evidence_record_count": 7,
+      "source_host_count": 6,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If comparable cases repeatedly show usable recovery before formal response, or formal response without durable access improvement, the sequence claim is weakened.",
+      "next_action": "Code formal response, implementation, receipt, durable access, and exit stages across independent labor, consumer, health, and public-service records.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-infrastructure-dependency-power",
+      "title": "Infrastructure dependency becomes cultural and geopolitical power",
+      "status": "held_hypothesis",
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "evidence_record_count": 7,
+      "source_host_count": 14,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If comparable infrastructure events show no durable reliability, cost, compensation, or acceptance consequence, the dependency-to-power mechanism is weakened.",
+      "next_action": "Link capacity or ownership claims to operation, actual receipt, local burden, maintenance, and acceptance.",
+      "internal_bridge_ready": false
+    },
+    {
+      "candidate_id": "candidate-time-financial-pressure-practical-room",
+      "title": "Time and financial pressure reduce practical room before demand disappears",
+      "status": "held_hypothesis",
+      "passed_gate_count": 2,
+      "gate_count": 8,
+      "evidence_record_count": 8,
+      "source_host_count": 9,
+      "blocking_gates": [
+        "comparability",
+        "independence",
+        "persistence",
+        "falsifier",
+        "backtest",
+        "decision_relevance"
+      ],
+      "falsifier": "If compatible repeated measures show pressure rising without reduced participation, substitution, or delayed completion, the practical-room mechanism is weakened.",
+      "next_action": "Preserve compatible time, cost, participation, and wellbeing units before interpreting practical-room change.",
+      "internal_bridge_ready": false
+    }
+  ],
+  "boundary": "This is a decision-facing summary of the qualification matrix. Held hypotheses are not validated trends, and no row authorizes internal company data access."
+}
